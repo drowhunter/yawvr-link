@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1F2E6855-8CF5-4CA0-AD8E-C34E8F142BD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YawVR.Link", "src\YawVR.Link\YawVR.Link.csproj", "{3374C6D7-9A42-4C5B-976B-D419BF9DFCC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C3595F8B-290F-465B-BDFD-E38BA5DF60A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YawVR.Link.Tests", "tests\YawVR.Link.Tests\YawVR.Link.Tests.csproj", "{8515DA06-DD0C-4E80-B1A7-86E679F80F17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{4E5A009F-FE99-460B-9972-366AB44B0176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmulatorConsole", "samples\EmulatorConsole\EmulatorConsole.csproj", "{70D9096D-C687-4D4B-B378-640B85A99293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenderConsole", "samples\SenderConsole\SenderConsole.csproj", "{8125D4AF-1A6A-4ADE-ABA6-F18237894768}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3374C6D7-9A42-4C5B-976B-D419BF9DFCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3374C6D7-9A42-4C5B-976B-D419BF9DFCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3374C6D7-9A42-4C5B-976B-D419BF9DFCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3374C6D7-9A42-4C5B-976B-D419BF9DFCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8515DA06-DD0C-4E80-B1A7-86E679F80F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8515DA06-DD0C-4E80-B1A7-86E679F80F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8515DA06-DD0C-4E80-B1A7-86E679F80F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8515DA06-DD0C-4E80-B1A7-86E679F80F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D9096D-C687-4D4B-B378-640B85A99293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D9096D-C687-4D4B-B378-640B85A99293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D9096D-C687-4D4B-B378-640B85A99293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D9096D-C687-4D4B-B378-640B85A99293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8125D4AF-1A6A-4ADE-ABA6-F18237894768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8125D4AF-1A6A-4ADE-ABA6-F18237894768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8125D4AF-1A6A-4ADE-ABA6-F18237894768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8125D4AF-1A6A-4ADE-ABA6-F18237894768}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3374C6D7-9A42-4C5B-976B-D419BF9DFCC8} = {1F2E6855-8CF5-4CA0-AD8E-C34E8F142BD2}
+		{8515DA06-DD0C-4E80-B1A7-86E679F80F17} = {C3595F8B-290F-465B-BDFD-E38BA5DF60A5}
+		{70D9096D-C687-4D4B-B378-640B85A99293} = {4E5A009F-FE99-460B-9972-366AB44B0176}
+		{8125D4AF-1A6A-4ADE-ABA6-F18237894768} = {4E5A009F-FE99-460B-9972-366AB44B0176}
+	EndGlobalSection
+EndGlobal
